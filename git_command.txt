@@ -1,0 +1,38 @@
+git config --global user.email ""
+git config --global user.name ""
+
+git init 
+
+git status 
+
+git add -A 
+
+git add index.html
+
+git commit -m " added index.html " 
+
+git remote add origin project_url
+
+git push origin master ( username and password will ask )
+
+git pull origin master
+
+git clone project_url
+
+git remote -v ( check is file remote ) 
+
+
+--------------------- Branch ------------------
+
+git branch ( check the branches )
+
+git branch new_branch  ( crete new branch )  
+
+git checkout new_branch ( switch ) 
+
+git checkout -b new_branch ( create new branch and checkout ) 
+
+git merge new_branch ( merge the files with master branch )
+ 
+git branch -d new_branch 
+
